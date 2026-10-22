@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page de test</title>
+</head>
+<body>
+  <h2>Page de test</h2>
+  <p>Écris un mot de test :</p>
+
+  <input id="mot" type="text" placeholder="Mot fictif">
+  <button onclick="document.getElementById('resultat').textContent =
+    'Résultat : ' + document.getElementById('mot').value">
+    OK
+  </button>
+
+  <p id="resultat"></p>
+</body>
+</html>
